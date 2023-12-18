@@ -1,8 +1,8 @@
 #root {
-  /* max-width: 1280px;
-  margin: 0 auto; 
-  padding: 2rem;
-  text-align: center; */
+  width: 100%;
+  margin: 0; 
+  /* padding: 2rem;
+  text-align: center; */ 
 }
 
 header{
@@ -10,7 +10,7 @@ header{
   width: 100%;
   height: 3.4375rem;
   display: flex;
-  flex-shrink: 0; 
+  flex: 1 0 auto;
   align-items: center;
   justify-content: center;
 
@@ -30,4 +30,111 @@ header{
   height: 1.5rem;
   fill: white;
   margin-right: 0.45rem;
+}
+
+.content-container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6.25rem 2.5rem;
+}
+
+.card-outer-wrapper{
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* flex-shrink: 1; */
+}
+
+.card-container{
+  max-width: 100%;
+  /* padding: 0 2.5rem; */
+  display: flex;
+  /* flex-shrink: 1; */
+}
+
+.card-img{
+  max-width: 7.8125rem;
+  max-height: 10.5rem; 
+  margin-right: 1.19rem;
+  flex-shrink: 1;
+  border-radius: 0.31rem;
+}
+
+.card-text-top-row{
+  display: flex;
+  align-items: center;
+
+
+}
+
+.location-icon{
+  height: 0.8rem;
+  width: auto;
+  flex-shrink: 0;
+  margin-right: 0.25rem; 
+  fill: #F55A5A; 
+}
+
+.location{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.country{
+  margin: 0;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.10881rem; 
+}
+
+.google-map-link{
+  margin-left: 0.75rem;
+  color: #918E9B;
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline; 
+  text-wrap: nowrap;
+}
+
+.dates{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.description{
+  max-width: 100%;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 0.96rem */ 
+}
+
+hr{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#F5F5F5;
+  height: 0.0625rem;
+  margin-top: 1.12rem;
 }
