@@ -1,9 +1,13 @@
+import data from '../data'
+
 export default function Card(props){
     return (
         <>
         <div className="card-outer-wrapper">
 
             <div className="card-container">
+
+                
 
                 <img className="card-img" src={props.trip.imageUrl} alt="" />
                 <div className="card-text-container">
@@ -19,7 +23,8 @@ export default function Card(props){
                     <p className="description">{props.trip.description}</p>
                 </div>
             </div>
-            {3==3 && <hr/>}
+            {/* only show hr element if not last trip in list */}
+            {props.trip.id != data.length  && <hr/>}
         </div>
         
         </>
