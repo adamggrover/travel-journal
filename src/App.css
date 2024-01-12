@@ -38,7 +38,9 @@ header{
 
   display: flex;
   flex-direction: column;
-  margin: 6.25rem 2.5rem 0 2.5rem;
+  align-items: center;
+  max-width: 43.5rem;
+  margin: 6.25rem auto;
 }
 
 /* card component */
@@ -47,13 +49,14 @@ header{
   margin: 0;
   display: flex;
   flex-direction: column;
-  max-width: 43.75rem;
+  width: 100%;
 }
 
 .card-container{
-  max-width: 100%;
-  margin-bottom: 1.15rem;
+  
+  margin: 0 1rem 1.15rem 1rem;
   display: flex;
+  
   
 }
 
@@ -114,7 +117,6 @@ header{
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline; 
-  text-wrap: nowrap;
 }
 
 .dates{
