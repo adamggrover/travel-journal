@@ -72,7 +72,7 @@ export default [
         googleMapsUrl: "https://www.google.com/maps/place/Amsterdam,+Netherlands/@52.3547607,4.739154,11z/data=!3m1!4b1!4m6!3m5!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3675734!4d4.9041389!16zL20vMGszcA?entry=ttu",
         startDate: "21 Feb, 2016",
         endDate: "24 Feb, 2016",
-        description: "Ansterdam is the capital and most populated city of the Netherlands,",
+        description: "Amsterdam is the capital and most populated city of the Netherlands,",
         imageUrl: "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
